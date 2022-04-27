@@ -10,12 +10,18 @@ Data were preprocessed and an initial model was compiled, trained, and evaluated
 
 ## Results
 ### **Data Preprocessing**
- - What variable(s) were considered targets for the model?  The target variable was represented in the column "IS_SUCCESSFUL" and was a binary response.
+ - What variable(s) were considered targets for the model?  The target variable was represented by the column "IS_SUCCESSFUL" and was a binary response.
 
- - What variable(s) are considered to be the features for your model?  The final dataframe, 
+ - What variable(s) were considered to be the features for your model?  The final working dataframe, "application_df", contained 44 columns of data.   43 columns of data were used to build the initial neural network model because the "IS_SUCCESSFUL" column was dropped as it was the target variable.
+
+ - What variable(s) were neither targets nor features, and should be removed from the input data?  The initial dataset contained column headings for "EIN" and organization "NAME".  These two columns were dropped during preprocessing because they were neither targets nor features.
 
 
 ### **Compiling, Training, and Evaluating the Model**
+ - How many neurons, layers, and activation functions were selected for the neural network model, and why?
 
+ - Was target model performance acheived?
+
+ - What steps were taken to try and increase model performance?
 
 ## Summary
